@@ -30,11 +30,25 @@ h4 {
 }
 
 img {
-  display: block;
+  display:block;
+}
+
+.picture2{
+  display: none;
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .picture1{
+    display:none;
+  }
+
+  .picture2{
+    display: inline-block;
+  }
+
+
 }
