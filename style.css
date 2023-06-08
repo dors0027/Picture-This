@@ -48,6 +48,8 @@ img {
 
   .picture2{
     display: inline-block;
+    max-width:100%;
+    height: auto;
   }
 
 
